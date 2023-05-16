@@ -1,0 +1,27 @@
+body{
+    background-color: #222;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    background-color: #444;
+    border: solid 1 px #666;
+    border-radius: 8px;
+    margin: 1em;
+    padding: 1em;
+    width: 30vw
+}
+
+.card > img {
+    width: 100%;
+}
+
+#content{
+    display: flex;
+    flex-wrap: wrap;
+}
